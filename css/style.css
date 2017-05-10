@@ -1,0 +1,64 @@
+body{
+   background: #2F4F4F;
+}
+header{
+    margin: 40px 0 0;
+}
+
+.navbar-brand img{
+    margin-top: -51px;
+}
+
+.dropdown-menu{
+    background: #A9A9A9;
+}
+
+.navbar-inverse .navbar-nav:not(.icons) > li > a:hover{
+    border-bottom: 1px solid red;
+}
+
+
+.greeting{
+    margin: 100px 0 100px;
+    color: aliceblue;
+}
+
+.steps{
+    color: aliceblue;
+    margin-bottom: 100px;
+}
+
+.img{
+   background: url(../images/1_1.jpg);
+    background-repeat: no-repeat center center;
+    color: aliceblue;
+}
+
+.last{
+    margin-top: 100px;
+    color: aliceblue;
+}
+
+.down-line{
+    margin-top: 100px;
+}
+
+.footer{
+    color: aliceblue;
+    margin-bottom: 150px;
+}
+
+@media only screen and (max-width: 767px){
+    .icons{
+        display: none;
+    }
+    
+    .navbar-nav > li > a{
+        transition: all .8s;
+    }
+    
+    .navbar-inverse .navbar-nav:not(.icons) > li > a:hover{
+        border-bottom: 0;
+        background: #B22222;
+    }
+}
